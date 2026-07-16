@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worksquare Solutions | Laboratory-Grade Automotive Engineering</title>
+    <!-- Premium Fonts Setup from New Design -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;700&family=Manrope:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+
+    <!-- Signature Precision Laser Line Wrapper (New) -->
+    <!-- <div class="laser-system-container">
+        <div class="precision-laser-line"></div>
+    </div> -->
+
+    <!-- Navigation (Styled with new layout, utilizing original navigation pathing) -->
+    <header class="engineered-nav">
+        <div class="logo-branding">
+            <img src="images/logo.png" alt="Worksquare Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="active" style="color: var(--accent-red);">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="testimonials.html">Enquiry</a>
+        </nav>
+        <div class="header-cta">
+            <button class="openModalBtn cta-engineered">Book Appointment</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. HERO SECTION (Replaced with new hero-experience) -->
+        <section class="hero-experience">
+            <!-- Cinematic Background Video -->
+            <div class="video-overlay"></div>
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="YTDown.com_YouTube_Cinematic-Car-Repair-Service-B-roll-prom_Media_09zIjp0qBRs_001_480p.mp4" type="video/mp4">
+            </video>
+
+            <div class="hero-container">
+                <div class="hero-left reveal-text">
+                    <span class="mono-tag">Precision Automotive Care</span>
+                    <h1 class="bebas-title">Precision isn't guessed.<br>It's engineered.</h1>
+                    <p class="hero-desc">Laboratory-grade diagnostics and performance engineering for drivers who refuse compromise.</p>
+                    <div class="hero-buttons">
+                        <button class="cta-primary openModalBtn">Schedule Service Now</button>
+                        <a href="#process" class="cta-secondary">Explore Our Process</a>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <!-- Animated Telemetry HUD -->
+                    <div class="telemetry-hud">
+                        <div class="hud-grid-bg"></div>
+                        <div class="hud-header">
+                            <span class="hud-label">VEHICLE STATUS</span>
+                            <span class="hud-value highlight-red">MERCEDES AMG C63</span>
+                        </div>
+                        <div class="hud-body">
+                            <div class="hud-row" data-delay="1">
+                                <span class="hud-metric">✓ ECU</span>
+                                <span class="hud-status">CALIBRATED</span>
+                            </div>
+                            <div class="hud-row" data-delay="2">
+                                <span class="hud-metric">✓ SUSPENSION</span>
+                                <span class="hud-status">ACTIVE</span>
+                            </div>
+                            <div class="hud-row" data-delay="3">
+                                <span class="hud-metric">✓ ALIGNMENT</span>
+                                <span class="hud-status">0.00° TOLERANCE</span>
+                            </div>
+                            <div class="hud-row" data-delay="4">
+                                <span class="hud-metric">✓ DIAGNOSTICS</span>
+                                <span class="hud-status">SECURE</span>
+                            </div>
+                        </div>
+                        <div class="hud-footer">
+                            <span class="hud-label">FACTORY TOLERANCE</span>
+                            <div class="hud-tolerance">
+                                <span class="counter" data-target="99">0</span>.<span class="counter-decimal">8%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. TRUST STRIP & BRANDS MARQUEE (Replaced the old ticker with new scrolling track + old images) -->
+        <section class="trust-strip-experience">
+            <div class="trust-stats-grid">
+                <div class="trust-stat">
+                    <span class="mono-label">Google Rating</span>
+                    <h3>★ 4.9</h3>
+                </div>
+                <div class="trust-stat">
+                    <span class="mono-label">Active Fleet</span>
+                    <h3>8500+ Vehicles</h3>
+                </div>
+                <div class="trust-stat">
+                    <span class="mono-label">Track Record</span>
+                    <h3>15+ Years</h3>
+                </div>
+                <div class="trust-stat">
+                    <span class="mono-label">Certified Rig</span>
+                    <h3>Hunter • Bosch • Launch</h3>
+                </div>
+            </div>
+            
+            <!-- Horizontal Auto-Scrolling Brands with Images from Original Ticker -->
+            <div class="brands-marquee">
+                <div class="marquee-track">
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mercedes.svg" alt="Mercedes"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/bmw.svg" alt="BMW"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/toyota.svg" style="filter: drop-shadow(0px 0px 1px #222);" alt="Toyota"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/honda.svg" alt="Honda"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/audi.svg" alt="Audi"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lexus.svg" alt="Lexus"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/landrover.svg" alt="Land Rover"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nissan.svg" alt="Nissan"></span>
+                    <!-- Duplicate for loop seamlessness -->
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mercedes.svg" alt="Mercedes"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/bmw.svg" alt="BMW"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/toyota.svg" style="filter: drop-shadow(0px 0px 1px #222);" alt="Toyota"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/honda.svg" alt="Honda"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/audi.svg" alt="Audi"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/lexus.svg" alt="Lexus"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/landrover.svg" alt="Land Rover"></span>
+                    <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nissan.svg" alt="Nissan"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. FEATURED CASE STUDY (Inserted directly below Horizontal Brands Marquee) -->
+        <section id="work" class="case-study-experience reveal-section">
+            <div class="container-inner">
+                <span class="mono-tag highlight-red">Featured Performance Calibration</span>
+                <h2 class="section-title bebas">BMW X5 Case Study</h2>
+                
+                <div class="case-study-split">
+                    <div class="case-study-visuals">
+                        <!-- Custom Before/After Slide Container -->
+                        <div class="before-after-slider">
+                            <div class="img-container before">
+                                <img src="images/photo_2026-06-28 15.23.48.jpeg" alt="BMW X5 Before Alignment">
+                                <span class="slider-badge label-before">Uncalibrated Vibration</span>
+                            </div>
+                            <div class="img-container after">
+                                <img src="images/photo_2026-06-28 15.23.53.jpeg" alt="BMW X5 After Calibration">
+                                <span class="slider-badge label-after">Restored Factory Precision</span>
+                            </div>
+                            <input type="range" min="0" max="100" value="50" class="slider-control" aria-label="Before and after image slider controls">
+                            <div class="slider-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="case-study-diagnostics">
+                        <div class="telemetry-chain">
+                            <div class="chain-node">
+                                <span class="node-title">BMW X5 Dynamic Chassis</span>
+                                <p class="node-text">Persistent steering vibration experienced at velocities exceeding 110 km/h.</p>
+                            </div>
+                            <div class="chain-arrow">↓</div>
+                            <div class="chain-node">
+                                <span class="node-title">Laser Diagnostics Engine</span>
+                                <p class="node-text">Identified sub-millimeter deviation in tracking telemetry.</p>
+                            </div>
+                            <div class="chain-arrow">↓</div>
+                            <div class="chain-node">
+                                <span class="node-title">Calibration Protocol</span>
+                                <p class="node-text">Chassis recalibrated via Hunter Elite aligner to true 0.00° factory specifications.</p>
+                            </div>
+                            <div class="chain-arrow">↓</div>
+                            <div class="chain-node highlight-node">
+                                <span class="node-title">Factory Precision Restored</span>
+                                <p class="node-text">Zero steering vibration, optimized corner stability, dynamic tire life restored.</p>
+                            </div>
+                        </div>
+
+                        <blockquote class="cinematic-quote">
+                            <p>"The high-speed steering vibration was driving me crazy. Worksquare mapped my suspension tolerances and resolved what two other shops missed."</p>
+                            <cite>— Marcus V., BMW X5 xDrive Owner</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. COMBINED NUMBERS EXPERIENCE & CAPABILITY MATRIX -->
+        <section class="trust-metrics-section reveal-section">
+            <div class="metrics-split-layout">
+                
+                <!-- Left: Typographic Massive Stats (Replaced Company Track Record) -->
+                <div class="metrics-counters-column numbers-experience">
+                    <span class="mono-tag" style="margin-bottom: 20px;">Company Track Record</span>
+                    <h2 class="split-section-title bebas" style="font-size: 2.5rem; margin-bottom: 40px; font-weight: normal; letter-spacing: 1.5px;">Proven Excellence</h2>
+                    
+                    <div class="huge-stats-wrapper" style="gap: 30px;">
+                        <div class="huge-stat-item" style="padding-bottom: 20px; border-bottom: 1px solid rgba(11, 19, 43, 0.08); display: flex; justify-content: space-between; align-items: center;">
+                            <span class="stat-number" style="font-family: var(--font-heading); font-size: 4rem; color: var(--brand-blue);"><span class="counter" data-target="8500">0</span>+</span>
+                            <span class="stat-label" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-red); letter-spacing: 1px; text-align: right;">HAPPY DRIVERS Matrix</span>
+                        </div>
+                        <div class="huge-stat-item" style="padding-bottom: 20px; border-bottom: 1px solid rgba(11, 19, 43, 0.08); display: flex; justify-content: space-between; align-items: center;">
+                            <span class="stat-number" style="font-family: var(--font-heading); font-size: 4rem; color: var(--brand-blue);"><span class="counter" data-target="15">0</span>+</span>
+                            <span class="stat-label" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-red); letter-spacing: 1px; text-align: right;">YEARS EXPERIENCE</span>
+                        </div>
+                        <div class="huge-stat-item" style="padding-bottom: 20px; border-bottom: 1px solid rgba(11, 19, 43, 0.08); display: flex; justify-content: space-between; align-items: center;">
+                            <span class="stat-number" style="font-family: var(--font-heading); font-size: 4rem; color: var(--brand-blue);"><span class="counter" data-target="100">0</span>%</span>
+                            <span class="stat-label" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-red); letter-spacing: 1px; text-align: right;">GENUINE PARTS</span>
+                        </div>
+                        <div class="huge-stat-item" style="padding-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+                            <span class="stat-number" style="font-family: var(--font-heading); font-size: 4rem; color: var(--brand-blue);"><span class="counter" data-target="12">0</span>+</span>
+                            <span class="stat-label" style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-red); letter-spacing: 1px; text-align: right;">AWARDS WINNING</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Comprehensive Capability Matrix (Maintained Tag Cloud List) -->
+                <div class="metrics-capabilities-column">
+                    <div class="section-badge" style="background-color: transparent; padding: 0; color: var(--brand-blue); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px;">Comprehensive Capability Matrix</div>
+                    <h2 class="split-section-title bebas" style="font-size: 2.5rem; margin-bottom: 40px; font-weight: normal; letter-spacing: 1.5px;">Specialized Systems Covered</h2>
+                    
+                    <div class="capabilities-tag-cloud">
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Car Maintenance/Services</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Car Diagnostics</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Oil & Filters</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Transmission and Clutch</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Electrics</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Car Tuning/Tune-Up</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Air Conditioning</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Suspension</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Steering Wheel</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Tires</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Battery</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Car Branding</div>
+                        <div class="capability-tag"><i class="fa-solid fa-circle-check"></i> Engine</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 5. WHY CHOOSE US (Understated brand blue shifts and clean layout) -->
+        <section class="why-choose-us-section reveal-section">
+            <div class="container-wrapper">
+                <div class="section-header-centered reveal-on-scroll" style="text-align: center; margin-bottom: 60px;">
+                    <span class="mono-tag">The Worksquare Advantage</span>
+                    <h2 class="bebas" style="font-size: 3rem; margin-top: 10px;">Why Discerning Operators Choose Us</h2>
+                    <p class="brand-tagline" style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-top: 10px;">Engineered around precision, convenience, and absolute quality.</p>
+                </div>
+
+                <div class="value-propositions-grid">
+                    <div class="prop-card reveal-on-scroll">
+                        <div class="prop-icon-indicator" style="color: var(--brand-blue);"><i class="fa-solid fa-charging-station"></i></div>
+                        <h3>International Standard Facility</h3>
+                        <p>Our workshop facility has been custom-built to elite international workflows, integrated with advanced and professional equipment arrays.</p>
+                    </div>
+
+                    <div class="prop-card reveal-on-scroll">
+                        <div class="prop-icon-indicator" style="color: var(--brand-blue);"><i class="fa-solid fa-user-astronaut"></i></div>
+                        <h3>Highly Skilled Specialists</h3>
+                        <p>All diagnostic, mechanical, and electrical telemetry works are executed exclusively by certified, highly skilled, and qualified master professionals.</p>
+                    </div>
+
+                    <div class="prop-card reveal-on-scroll">
+                        <div class="prop-icon-indicator" style="color: var(--brand-blue);"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                        <h3>Tailored & Affordable Rates</h3>
+                        <p>Premium service footprints don't have to carry dealer premium costs. Every service is structured to be highly convenient and affordable.</p>
+                    </div>
+
+                    <div class="prop-card reveal-on-scroll">
+                        <div class="prop-icon-indicator" style="color: var(--brand-blue);"><i class="fa-solid fa-headset"></i></div>
+                        <h3>Expert Client Assistance</h3>
+                        <p>Our dedicated professional service advisors are friendly, highly helpful, and completely standing by to walk you through your vehicle health scans.</p>
+                    </div>
+
+                    <div class="prop-card reveal-on-scroll">
+                        <div class="prop-icon-indicator" style="color: var(--brand-blue);"><i class="fa-solid fa-snowflake"></i></div>
+                        <h3>Conducive Environment</h3>
+                        <p>Relax or consult in an ultra-clean, modern, comfortable, and highly conducive environment designed around complete transparency.</p>
+                    </div>
+
+                    <div class="prop-card reveal-on-scroll">
+                        <div class="prop-icon-indicator" style="color: var(--brand-blue);"><i class="fa-solid fa-heart-circle-check"></i></div>
+                        <h3>Executed with Pure Passion</h3>
+                        <p>Quality control is our strict baseline metric. We ensure all mechanical works are handled carefully with an absolute passion to get it right the first time.</p>
+                    </div>
+
+                    <div class="prop-card reveal-on-scroll">
+                        <div class="prop-icon-indicator" style="color: var(--brand-blue);"><i class="fa-solid fa-bolt"></i></div>
+                        <h3>Same-Day Turnaround Measures</h3>
+                        <p>We honor your scheduling parameters. Optimized engineering tracks allow us to complete most factory updates and maintenance operations on the same day.</p>
+                    </div>
+
+                    <div class="prop-card reveal-on-scroll">
+                        <div class="prop-icon-indicator" style="color: var(--brand-blue);"><i class="fa-solid fa-comments"></i></div>
+                        <h3>Closed-Loop Feedback Systems</h3>
+                        <p>Your review matters. We host automated customer feedback systems ensuring accountability across every mechanical bay allocation window.</p>
+                    </div>
+
+                    <div class="prop-card reveal-on-scroll">
+                        <div class="prop-icon-indicator" style="color: var(--brand-blue);"><i class="fa-solid fa-oil-can"></i></div>
+                        <h3>100% Genuine Fluids & Spares</h3>
+                        <p>Zero compromises. Every single replacement component, filter, engine part, and specialized lubricant oil brand utilized is guaranteed to be 100% genuine and original.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. WHO WE ARE -->
+        <section id="who-we-are" class="info-strip reveal-section">
+            <div class="info-grid">
+                <div class="info-text">
+                    <span class="mono-tag">Who We Are</span>
+                    <h2 class="bebas" style="font-size: 3rem; margin-top: 10px;">Uncompromising standards, certified mastery.</h2>
+                    <p style="margin-top: 20px;">At WorkSquare Solutions, we treat automotive repair as a science. Operating with elite diagnostic technology, our ASE-certified masters handle everything from complex performance engine tuning to precision computerized wheel alignments. We don't just patch problems—we restore factory-grade driving dynamics.</p>
+                    <div class="metrics-container" style="display: flex; gap: 40px; margin-top: 40px;">
+                        <div class="stat-box reveal-on-scroll stagger-1">
+                            <h3 style="font-family: var(--font-heading); font-size: 3rem; color: var(--brand-blue);"><span class="counter" data-target="15">0</span>+</h3>
+                            <p style="font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase;">Years Experience</p>
+                        </div>
+                        <div class="stat-box reveal-on-scroll stagger-2">
+                            <h3 style="font-family: var(--font-heading); font-size: 3rem; color: var(--brand-blue);"><span class="counter" data-target="100">0</span>%</h3>
+                            <p style="font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase;">Satisfaction Rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-visual">
+                    <img src="images/pekssman1.png" alt="Engine Diagnostics" style="filter: grayscale(100%) brightness(0.95); border: 1px solid rgba(11, 19, 43, 0.08);">
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. OUR PERFORMANCE -->
+        <section id="latest-work" class="work-showcase reveal-section">
+            <div class="section-header" style="margin-bottom: 50px;">
+                <span class="mono-tag">Our Performance</span>
+                <h2 class="bebas" style="font-size: 3rem; margin-top: 10px;">Inside the WorkSquare</h2>
+            </div>
+            
+            <div class="work-gallery">
+                <a href="services.html" class="work-item size-wide" style="text-decoration: none; display: block;">
+                    <img src="images/photo_2026-06-28 15.23.48.jpeg" alt="Tire Balancing">
+                    <div class="work-overlay">
+                        <h3 class="bebas" style="font-size: 1.5rem;">Laser Wheel Alignment & Tire Balancing</h3>
+                        <p>High-speed vibration optimization for track and street frameworks.</p>
+                    </div>
+                </a>
+
+                <a href="services.html" class="work-item size-tall" style="text-decoration: none; display: block;">
+                    <img src="images/photo_2026-06-28 15.23.42.jpeg" alt="Brake Performance">
+                    <div class="work-overlay">
+                        <h3 class="bebas" style="font-size: 1.5rem;">Brake Caliper Rebuilds & Ceramics</h3>
+                        <p>Custom thermal-resistant rotor tracking installations.</p>
+                    </div>
+                </a>
+
+                <a href="services.html" class="work-item" style="text-decoration: none; display: block;">
+                    <img src="images/photo_2026-06-28 15.23.55.jpeg" alt="ECU Tuning">
+                    <div class="work-overlay">
+                        <h3 class="bebas" style="font-size: 1.5rem;">ECU Diagnostic Remapping</h3>
+                        <p>Direct live data analysis tracing telemetry errors.</p>
+                    </div>
+                </a>
+
+                <a href="services.html" class="work-item" style="text-decoration: none; display: block;">
+                    <img src="images/photo_2026-06-28 15.23.53.jpeg" alt="Suspension Work">
+                    <div class="work-overlay">
+                        <h3 class="bebas" style="font-size: 1.5rem;">Suspension Framework Tuning</h3>
+                        <p>Complete control arm restructuring and shock testing.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- 8. WORKSHOP FILM (Placed directly below Our Performance section) -->
+        <section class="workshop-film-experience reveal-section">
+            <div class="video-container">
+                <div class="video-scrim"></div>
+                <video class="film-video" autoplay muted loop playsinline>
+                    <source src="YTDown.com_YouTube_Cinematic-Car-Repair-Service-B-roll-prom_Media_09zIjp0qBRs_001_480p.mp4" type="video/mp4">
+                </video>
+                <div class="film-content">
+                    <span class="mono-tag highlight-red">Inside the Bay</span>
+                    <h2 class="bebas" style="font-size: 4rem; color: var(--text-pure);">The Science of Performance</h2>
+                    <button class="cta-primary play-btn openModalBtn">Watch Full Workshop Film</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. TESTIMONIALS -->
+        <section id="testimonials" class="reviews-canvas reveal-section">
+            <div class="section-header centered" style="text-align: center; margin-bottom: 60px;">
+                <span class="mono-tag">Client Reviews</span>
+                <h2 class="bebas" style="font-size: 3rem; margin-top: 10px;">Trusted by High-Performance Drivers</h2>
+            </div>
+            
+            <div class="reviews-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px;">
+                <div class="review-card" style="background: var(--bg-card); border: 1px solid rgba(11, 19, 43, 0.06); padding: 40px; border-radius: 2px;">
+                    <div class="rating" style="color: var(--accent-red); margin-bottom: 15px;">★★★★★</div>
+                    <p style="font-style: italic; color: var(--text-pure);">"Finding an honest tire center that understands track-day alignments is rare. Worksquare perfectly balanced my compound sets. The steering response is night and day."</p>
+                    <span class="reviewer-signature" style="display: block; font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); margin-top: 20px; text-transform: uppercase;">— Marcus V., Performance Touring Client</span>
+                </div>
+
+                <div class="review-card" style="background: var(--bg-card); border: 1px solid rgba(11, 19, 43, 0.06); padding: 40px; border-radius: 2px;">
+                    <div class="rating" style="color: var(--accent-red); margin-bottom: 15px;">★★★★★</div>
+                    <p style="font-style: italic; color: var(--text-pure);">"They diagnosed an intricate electronic suspension error that two premium dealerships completely missed. Transparent pricing, zero sales fluff. Highly recommend."</p>
+                    <span class="reviewer-signature" style="display: block; font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); margin-top: 20px; text-transform: uppercase;">— Elena R., Executive Sedan Owner</span>
+                </div>
+
+                <div class="review-card" style="background: var(--bg-card); border: 1px solid rgba(11, 19, 43, 0.06); padding: 40px; border-radius: 2px;">
+                    <div class="rating" style="color: var(--accent-red); margin-bottom: 15px;">★★★★★</div>
+                    <p style="font-style: italic; color: var(--text-pure);">"Flawless tire swaps. They use touchless mounting machines, so there wasn't a single scratch on my custom matte wheels. Absolute professionals."</p>
+                    <span class="reviewer-signature" style="display: block; font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); margin-top: 20px; text-transform: uppercase;">— David K., Commercial Fleet Lead</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. FACILITY LOCATION MAP -->
+        <section class="workshop-location-section reveal-section" style="padding-top: 120px;">
+            <div class="location-split-map-container" style="position: relative; height: 600px; display: flex; width: 100%;">
+                <div class="map-viewport-wrapper" style="width: 100%; height: 100%;">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4447796937175!2d3.37682947475276!3d6.465181793526145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8cf6bdfbbf9f%3A0x600fb1bc18e00185!2s346%20Borno%20Way%2C%20Alagomeji%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2s!4v1719660000000!5m2!1sen!2s" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <div class="location-brand-overlay-card reveal-on-scroll" style="position: absolute; left: 10%; top: 50%; transform: translateY(-50%); background: rgba(255, 255, 255, 0.95); border: 1px solid rgba(11, 19, 43, 0.08); padding: 40px; border-radius: 2px; width: 420px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); z-index: 10;">
+                    <div class="card-logo-header" style="margin-bottom: 25px;">
+                        <img src="images/logo.png" alt="Worksquare Solutions Logo" class="map-card-logo" style="height: 35px; object-fit: contain;">
+                    </div>
+                    
+                    <div class="card-address-body" style="display: flex; flex-direction: column; gap: 20px;">
+                        <h3 class="bebas" style="font-size: 1.8rem; margin-bottom: 5px;">Our Facility Workshop Base</h3>
+                        
+                        <div class="address-detail-line" style="display: flex; gap: 15px;">
+                            <i class="fa-solid fa-location-dot map-card-icon" style="color: var(--accent-red); margin-top: 3px;"></i>
+                            <p style="font-size: 0.9rem; color: var(--text-pure);">Worksquare Solution Limited<br>
+                            346, Borno Way, Via Alagomeji Bus Stop,<br>
+                            Ebute Metta, Lagos, Nigeria.</p>
+                        </div>
+
+                        <div class="address-detail-line" style="display: flex; gap: 15px;">
+                            <i class="fa-solid fa-envelope-open-text map-card-icon" style="color: var(--accent-red); margin-top: 3px;"></i>
+                            <p style="font-size: 0.9rem; color: var(--text-pure);">info@worksquareng.com<br>enquiry@worksquareng.com</p>
+                        </div>
+
+                        <div class="address-detail-line" style="display: flex; gap: 15px;">
+                            <i class="fa-solid fa-phone-volume map-card-icon" style="color: var(--accent-red); margin-top: 3px;"></i>
+                            <p style="font-size: 0.9rem; color: var(--text-pure);">+234 809 280 0005<br>0701 447 2236 | 0808 266 8066</p>
+                        </div>
+                    </div>
+
+                    <a href="https://maps.google.com/?q=Worksquare+Solution+Limited+346+Borno+Way+Ebute+Metta+Lagos" target="_blank" class="map-navigation-cta" style="display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; background: var(--brand-blue); color: white; padding: 14px; font-family: var(--font-mono); font-size: 0.75rem; font-weight: bold; text-transform: uppercase; margin-top: 30px; letter-spacing: 1px; transition: background 0.3s;">
+                        <i class="fa-solid fa-diamond-turn-right"></i> Open Navigation Routes
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. COMBINED FINAL CTA & STYLIZED FEEDBACK REVIEW FORM (Workaround as requested) -->
+        <section class="final-cta-experience reveal-section" style="height: auto; padding: 120px 0; display: block; border-top: 1px solid rgba(11, 19, 43, 0.05);">
+            <div class="container-inner" style="display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 60px; align-items: center;">
+                
+                <!-- Left: Cinematic CTA from the New Design -->
+                <div class="cta-inner-content" style="text-align: left;">
+                    <span class="mono-tag highlight-red">Join Elite Drivers</span>
+                    <h2 class="cta-massive-title bebas" style="font-size: 5rem; text-align: left; margin-bottom: 30px; line-height: 0.95;">Your vehicle<br>deserves<br>factory precision.</h2>
+                    <p style="margin-bottom: 40px; font-size: 1.1rem; color: var(--text-muted); max-width: 500px;">Experience absolute mechanical transparency and laser-grade alignments engineered to factory specs.</p>
+                    <button class="cta-engineered-large openModalBtn" style="display: inline-block;">Book Inspection Now</button>
+                </div>
+
+                <!-- Right: Stylized Feedback Review Submission Form Block (Restyled to match clinical-precision theme) -->
+                <div class="feedback-form-wrapper" style="background: var(--bg-card); padding: 45px; border-radius: 2px; border: 1px solid rgba(11, 19, 43, 0.08); box-shadow: 0 20px 50px rgba(11,19,43,0.05);">
+                    <div class="section-header" style="text-align: center; margin-bottom: 30px;">
+                        <span class="mono-tag" style="margin-bottom: 5px;">Share Your Experience</span>
+                        <h2 class="bebas" style="font-size: 1.8rem; margin-bottom: 10px; font-weight: normal; letter-spacing: 1px;">Submit Driver Feedback</h2>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">Your performance telemetry matters to us. Help other drivers find elite-level precision diagnostics.</p>
+                    </div>
+
+                    <form id="feedbackForm">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                            <div class="input-group" style="margin-bottom: 15px;">
+                                <label>Full Name</label>
+                                <input type="text" placeholder="e.g. Lewis H." required style="border-radius: 2px; padding: 12px; background: var(--bg-base); border: 1px solid rgba(11,19,43,0.08); color: var(--text-pure);">
+                            </div>
+                            <div class="input-group" style="margin-bottom: 15px;">
+                                <label>Vehicle Model</label>
+                                <input type="text" placeholder="e.g. AMG C63" required style="border-radius: 2px; padding: 12px; background: var(--bg-base); border: 1px solid rgba(11,19,43,0.08); color: var(--text-pure);">
+                            </div>
+                        </div>
+
+                        <div class="input-group" style="margin-top: 5px; margin-bottom: 15px;">
+                            <label>Calibration Rating</label>
+                            <select required style="border-radius: 2px; padding: 12px; -webkit-appearance: none; background: var(--bg-base); border: 1px solid rgba(11,19,43,0.08); color: var(--text-pure);">
+                                <option value="5">★★★★★ (5/5 Excellence Matrix)</option>
+                                <option value="4">★★★★☆ (4/5 Highly Satisfactory)</option>
+                                <option value="3">★★★☆☆ (3/5 Standard Care)</option>
+                                <option value="2">★★☆☆☆ (2/5 Needs Improvement)</option>
+                                <option value="1">★☆☆☆☆ (1/5 Poor Satisfaction)</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group" style="margin-top: 5px; margin-bottom: 15px;">
+                            <label>Review Description</label>
+                            <textarea placeholder="Detail your mechanical diagnostic experience, alignment quality, or transparent pricing notes..." rows="4" required style="padding: 12px; border: 1px solid rgba(11, 19, 43, 0.08); background: var(--bg-base); outline: none; font-size: 0.9rem; color: var(--text-pure); font-family: inherit; resize: none; border-radius: 2px;"></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-booking" style="width: 100%; border-radius: 2px; font-size: 0.85rem; margin-top: 10px; background-color: var(--brand-blue); border: 1px solid var(--brand-blue);">Transmit Feedback Log</button>
+                    </form>
+
+                    <!-- Success Confirmation Shim -->
+                    <div id="feedbackSuccess" style="display: none; text-align: center; padding: 30px 0;">
+                        <div style="color: var(--brand-blue); font-size: 3rem; margin-bottom: 15px;">✓</div>
+                        <h3 style="color: var(--brand-blue); margin-bottom: 10px; font-family: var(--font-heading); font-weight: normal; letter-spacing: 1px;">Review Telemetry Processed!</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Thank you for contributing to the Worksquare Solutions database. Your review will populate after structural indexing.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (Engineered Layout utilizing Original Address and Telemetry Data) -->
+    <footer class="engineered-footer">
+        <div class="footer-grid">
+            <div class="footer-branding">
+                <img src="images/logo.png" alt="Worksquare Solutions" style="height: 35px; object-fit: contain; margin-bottom: 20px;">
+                <p>Laboratory-grade diagnostics and performance tire calibrations engineered for street and track dynamics.</p>
+                <div class="contact-telemetry" style="display: flex; flex-direction: column; gap: 8px; margin-top: 20px; font-family: var(--font-mono); font-size: 0.75rem;">
+                    <a href="tel:+234 808 266 8066" style="text-decoration: none; color: var(--text-muted);"><strong>P:</strong> +234 808 266 8066</a>
+                    <a href="mailto:info@worksquareng.com" style="text-decoration: none; color: var(--text-muted);"><strong>E:</strong> info@worksquareng.com</a>
+                    <p style="color: var(--text-muted); margin: 0; line-height: 1.4;"><strong>L:</strong> 346, Borno Way, Via Alagomeji Bus Stop, Ebute Metta, Lagos.</p>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <h4>System Maps</h4>
+                <a href="index.html">Home Performance</a>
+                <a href="about.html">About The Science</a>
+                <a href="services.html">Capability Array</a>
+                <a href="testimonials.html">Driver Validation</a>
+            </div>
+            <div class="footer-signals">
+                <h4>Social Broadcasts</h4>
+                <p style="margin-bottom: 15px; font-size: 0.85rem; color: var(--text-muted);">Follow our daily diagnostic telemetry and live track-side updates:</p>
+                <div class="social-channels-row" style="display: flex; gap: 15px;">
+                    <a href="#" aria-label="Facebook" style="color: var(--brand-blue); font-size: 1.2rem;"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram" style="color: var(--brand-blue); font-size: 1.2rem;"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="X" style="color: var(--brand-blue); font-size: 1.2rem;"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="YouTube" style="color: var(--brand-blue); font-size: 1.2rem;"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-cr">
+            <p>&copy; 2026 WORKSQUARE SOLUTIONS. ALL RIGHTS RESERVED.</p>
+            <p class="designer-sig">SYSTEM INTEGRATION BY SBACE</p>
+        </div>
+    </footer>
+
+    <!-- Formspree Booking Modal -->
+    <div id="appointmentModal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Secure Diagnostic Bay Window</h2>
+            <p>Complete your telemetry metrics below to lock in your priority service bay slot.</p>
+            
+            <form id="appointmentForm" action="https://formspree.io/f/yourformid" method="POST">
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="input-group">
+                    <label>Phone</label>
+                    <input type="tel" name="phone" placeholder="0809-280-0005" required>
+                </div>
+                <div class="input-group">
+                    <label>Vehicle Make & Brand</label>
+                    <input type="text" name="vehicle_brand" placeholder="e.g. Toyota, Mercedes, Honda" required>
+                </div>
+                <div class="input-group">
+                    <label>Primary Service Needed</label>
+                    <select name="service" required>
+                        <option value="" disabled selected>Select service array...</option>
+                        <option>Precision Wheel Alignment & Tires</option>
+                        <option>Advanced Powertrain Diagnostics & Programming</option>
+                        <option>Braking System Calibration</option>
+                        <option>Air Condition Service & Maintenance</option>
+                        <option>Scheduled Factory Maintenance</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>Preferred Date</label>
+                    <input type="date" name="date" required>
+                </div>
+                <button type="submit" class="submit-booking">Confirm Allocation Window</button>
+            </form>
+            
+            <div id="successMessage" style="display:none;">
+                <h3>Bay Reserved Successfully!</h3>
+                <p>Your calendar reservation code has been generated. See you in the bay.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Referencing script.js as per old naming rules -->
+    <script src="script.js"></script>
+</body>
+</html>

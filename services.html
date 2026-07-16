@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Worksquare Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;700&family=Manrope:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+
+    <header class="engineered-nav">
+        <div class="logo-branding">
+            <img src="images/logo.png" alt="Worksquare Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="testimonials.html">Enquiry</a>
+        </nav>
+        <div class="header-cta">
+            <button class="openModalBtn cta-engineered">Book Appointment</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Inner Page Hero Canvas Frame -->
+        <section class="hero-canvas" style="height: 50vh; min-height: 350px; background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 40%, rgba(0,0,0,0.2)), url('images/photo_2026-06-28\ 15.24.26.jpeg') center/cover no-repeat;">
+            <div class="hero-content" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+                <span class="section-tag">Our Capabilities</span>
+                <h1 style="margin-top: 40px; font-size: 3.5rem;">Our Service Matrices</h1>
+                <p class="brand-tagline">Worksquare Solutions — Passion for Excellence.</p>
+            </div>
+        </section>
+
+        <!-- Bento Grid Services Showcase -->
+        <section class="work-showcase" style="background-color: var(--soft-gray); padding: 100px 60px;">
+            <div class="section-header centered" style="text-align: center; margin-bottom: 60px;">
+                <span class="section-tag">Expertise Matrix</span>
+                <h2>Engineered Automotive Services</h2>
+            </div>
+            
+            <!-- Bento Container mapping out asymmetric structural boxes -->
+            <div class="work-gallery" style="display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-rows: minmax(280px, auto); gap: 30px;">
+                
+                <!-- Service 1: Wide Layout (Image Side-by-Side Left) -->
+                <div class="work-item size-wide reveal-on-scroll stagger-1" style="grid-column: span 2; display: grid; grid-template-columns: 1fr 1.2fr; background: var(--clean-white); opacity: 1;">
+                    <div style="height: 100%; overflow: hidden;">
+                        <img src="images/photo_2026-06-28 15.23.46.jpeg" alt="Vehicle Inspection" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 40px; display: flex; flex-direction: column; justify-content: center;">
+                        <span class="section-tag" style="font-size: 0.65rem; margin-bottom: 5px;">01 / Full Diagnostic</span>
+                        <h3 style="color: var(--primary-blue); font-size: 1.4rem; margin-bottom: 12px; font-weight:800;">Vehicle Inspection</h3>
+                        <p style="font-size: 0.88rem; color: #555; line-height: 1.6;">We specialize in providing comprehensive automotive routine maintenance to complex repairs. Whether it's an issue with your engine, brakes, transmission, or electrical system, our technicians get you back on the road quickly and safely. We take pride in offering honest, transparent services.</p>
+                    </div>
+                </div>
+
+                <!-- Service 2: Standard Block (Vertical Card Style) -->
+                <div class="work-item reveal-on-scroll stagger-2" style="background: var(--clean-white); display: flex; flex-direction: column; opacity: 1;">
+                    <div style="height: 180px; overflow: hidden;">
+                        <img src="images/photo_2026-06-28 15.24.17.jpeg" alt="Wheel Alignment" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 25px; flex-grow: 1;">
+                        <span class="section-tag" style="font-size: 0.65rem; margin-bottom: 5px;">02 / Geometry</span>
+                        <h3 style="color: var(--primary-blue); font-size: 1.2rem; margin-bottom: 8px; font-weight:800;">Laser Alignment</h3>
+                        <p style="font-size: 0.85rem; color: #666; line-height: 1.5;">Computerized multi-axis adjustments mapping exact factory tracking frameworks to maximize tire longevity and compound footprint grip.</p>
+                    </div>
+                </div>
+
+                <!-- Service 3: Tall Layout (Image Side-by-Side Top/Bottom Stack) -->
+                <div class="work-item size-tall reveal-on-scroll stagger-3" style="grid-row: span 2; background: var(--clean-white); display: flex; flex-direction: column; opacity: 1;">
+                    <div style="height: 300px; overflow: hidden;">
+                        <img src="images/photo_2026-06-28 15.24.11.jpeg" alt="Brake Performance" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 35px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center;">
+                        <span class="section-tag" style="font-size: 0.65rem; margin-bottom: 5px;">03 / Thermal Safety</span>
+                        <h3 style="color: var(--primary-blue); font-size: 1.3rem; margin-bottom: 12px; font-weight:800;">Braking Systems</h3>
+                        <p style="font-size: 0.85rem; color: #555; line-height: 1.6;">From custom thermal-resistant ceramic compounds and complete caliper rebuilds to fluid pressure diagnostics. We eliminate high-speed vibration and fading patterns safely.</p>
+                    </div>
+                </div>
+
+                <!-- Service 4: Wide Layout (Image Side-by-Side Right) -->
+                <div class="work-item size-wide reveal-on-scroll stagger-4" style="grid-column: span 2; display: grid; grid-template-columns: 1.2fr 1fr; background: var(--clean-white); opacity: 1;">
+                    <div style="padding: 40px; display: flex; flex-direction: column; justify-content: center;">
+                        <span class="section-tag" style="font-size: 0.65rem; margin-bottom: 5px;">04 / Electronic Architecture</span>
+                        <h3 style="color: var(--primary-blue); font-size: 1.4rem; margin-bottom: 12px; font-weight:800;">ECU Mapping & Diagnostics</h3>
+                        <p style="font-size: 0.88rem; color: #555; line-height: 1.6;">Direct live data analysis tracing telemetry errors directly to their source. Our software integration allows us to safely identify and isolate tricky electronic network faults across all engine management systems.</p>
+                    </div>
+                    <div style="height: 100%; overflow: hidden;">
+                        <img src="images/Union-image.jpg" alt="ECU Tuning" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+
+                <!-- Service 5: Standard Block (Vertical Card Style) -->
+                <div class="work-item reveal-on-scroll stagger-1" style="background: var(--clean-white); display: flex; flex-direction: column; opacity: 1;">
+                    <div style="height: 180px; overflow: hidden;">
+                        <img src="images/photo_2026-06-28 15.23.57.jpeg" alt="Powertrain Care" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 25px; flex-grow: 1;">
+                        <span class="section-tag" style="font-size: 0.65rem; margin-bottom: 5px;">05 / Drivetrain</span>
+                        <h3 style="color: var(--primary-blue); font-size: 1.2rem; margin-bottom: 8px; font-weight:800;">Transmission Overhauls</h3>
+                        <p style="font-size: 0.85rem; color: #666; line-height: 1.5;">Precision planetary gear synchronization, clean fluid flushes, and torque converter adjustments to guarantee crisp, seamless power transfer.</p>
+                    </div>
+                </div>
+
+                <!-- Service 6: Wide Layout (Image Side-by-Side Left) -->
+                <div class="work-item size-wide reveal-on-scroll stagger-2" style="grid-column: span 2; display: grid; grid-template-columns: 1fr 1.2fr; background: var(--clean-white); opacity: 1;">
+                    <div style="height: 100%; overflow: hidden;">
+                        <img src="images/photo_2026-06-28 15.24.06.jpeg" alt="Suspension Tuning" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 40px; display: flex; flex-direction: column; justify-content: center;">
+                        <span class="section-tag" style="font-size: 0.65rem; margin-bottom: 5px;">06 / Kinematics</span>
+                        <h3 style="color: var(--primary-blue); font-size: 1.4rem; margin-bottom: 12px; font-weight:800;">Suspension Restructuring</h3>
+                        <p style="font-size: 0.88rem; color: #555; line-height: 1.6;">Complete control arm, strut, and linkage overhauls. We measure component load ratings to re-establish pristine, rigid cornering dynamics and factory dampening ride profiles.</p>
+                    </div>
+                </div>
+
+                <!-- Service 7: Standard Block (Vertical Card Style filling the remaining Bento node) -->
+                <div class="work-item reveal-on-scroll stagger-3" style="background: var(--clean-white); display: flex; flex-direction: column; opacity: 1; grid-column: span 3;">
+                    <div style="display: grid; grid-template-columns: 1fr 2fr; align-items: center;">
+                        <div style="height: 250px; overflow: hidden;">
+                            <img src="images/photo_2026-06-28 15.24.19-2.jpeg" alt="Climate System" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div style="padding: 40px;">
+                            <span class="section-tag" style="font-size: 0.65rem; margin-bottom: 5px;">07 / Environment Matrix</span>
+                            <h3 style="color: var(--primary-blue); font-size: 1.4rem; margin-bottom: 12px; font-weight:800;">HVAC Climate Control Calibration</h3>
+                            <p style="font-size: 0.88rem; color: #555; line-height: 1.6;">Eco-conscious evacuation and precise refrigerant recovery lines. Our system diagnostics guarantee that digital dual-zone climate arrays hold perfect temperatures without bleeding powertrain performance.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Detailed Technical Capabilities Accordion Matrix -->
+        <section class="detailed-specs-section" style="background-color: #ffffff; padding: 90px 60px;">
+            <div class="section-header centered" style="text-align: center; margin-bottom: 60px;">
+                <span class="section-tag">Technical Scope</span>
+                <h2>Detailed Service Breakdowns</h2>
+                <p class="brand-tagline" style="color: #666; margin-top: 10px;">Click any automotive sector below to explore our complete operational capabilities.</p>
+            </div>
+
+            <div class="accordion-matrix-container" style="max-width: 1000px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
+                
+                <!-- Category 1: Maintenance -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        <span><i class="fa-solid fa-screwdriver-wrench"></i> Maintenance & Routine Services</span>
+                        <i class="fa-solid fa-chevron-down chevron-icon"></i>
+                    </button>
+                    <div class="accordion-panel">
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Comprehensive 20-point mechanical check & safety inspection</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Minor Services: detailed check-up & engine lubricant replacement</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Major Services: complete vehicle baseline restorations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 2: Diagnosing -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        <span><i class="fa-solid fa-laptop-code"></i> Advanced Diagnostics & Programming</span>
+                        <i class="fa-solid fa-chevron-down chevron-icon"></i>
+                    </button>
+                    <div class="accordion-panel">
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Full system diagnosing checks to trace any hidden electronic fault or malfunction</li>
+                            <li><i class="fa-solid fa-circle-check"></i> OEM-level Module Programming, control unit adaptations, and key coding</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Comprehensive detailed reporting with live data interpretations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 3: Brakes -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        <span><i class="fa-solid fa-car-burst"></i> Braking Systems & Safety Thermal Care</span>
+                        <i class="fa-solid fa-chevron-down chevron-icon"></i>
+                    </button>
+                    <div class="accordion-panel">
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Comprehensive safety checks and replacement of Brake Discs, Pads, and Fluid</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Master Cylinder inspections and parking brake cable replacement/adjustments</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Precision skimming and grinding of all brake discs and drums to eliminate vibrations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 4: Tune-Up -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        <span><i class="fa-solid fa-gauge-high"></i> Powertrain Tune-Up & Calibration</span>
+                        <i class="fa-solid fa-chevron-down chevron-icon"></i>
+                    </button>
+                    <div class="accordion-panel">
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Air Filter, Fuel Filter, and Spark Plug inspections & replacements</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Engine ignition timing adjustments, compression checks, and carbon dioxide emissions tuning</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 5: Electrics -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        <span><i class="fa-solid fa-bolt"></i> General & Complex Electrical Systems</span>
+                        <i class="fa-solid fa-chevron-down chevron-icon"></i>
+                    </button>
+                    <div class="accordion-panel">
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Light bulb replacements & lighting network troubleshooting</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Ignition coils and high-tension cable testing & replacement</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Fuse link troubleshooting and short circuit isolation</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Comprehensive car battery diagnostic checks & new replacements</li>
+                            <li><i class="fa-solid fa-circle-check"></i> General electrical accessories mapping and retrofitting</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 6: Air Condition -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        <span><i class="fa-solid fa-snowflake"></i> Climate Control & Air Conditioning</span>
+                        <i class="fa-solid fa-chevron-down chevron-icon"></i>
+                    </button>
+                    <div class="accordion-panel">
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Premium A/C system service, conditioning, and routine maintenance</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Core gas structural check-ups & high-grade top-up refilling</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Comprehensive chemical and electronic system gas leak detection</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Full replacement of Compressor, Belt, Evaporator, Condenser, Dryer, Filters, and Expansion Valves</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 7: Tires -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        <span><i class="fa-solid fa-circle-notch"></i> Tires, Geometry & Balancing</span>
+                        <i class="fa-solid fa-chevron-down chevron-icon"></i>
+                    </button>
+                    <div class="accordion-panel">
+                        <ul class="spec-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Premium tire tread diagnostics, multi-axis balancing, and performance compound replacements</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="engineered-footer">
+        <div class="footer-grid">
+            <div class="footer-branding">
+                <img src="images/logo.png" alt="Worksquare Solutions" style="height: 35px; object-fit: contain; margin-bottom: 20px;">
+                <p>Laboratory-grade diagnostics and performance tire calibrations engineered for street and track dynamics.</p>
+                <div class="contact-telemetry" style="display: flex; flex-direction: column; gap: 8px; margin-top: 20px; font-family: var(--font-mono); font-size: 0.75rem;">
+                    <a href="tel:+234 808 266 8066" style="text-decoration: none; color: var(--text-muted);"><strong>P:</strong> +234 808 266 8066</a>
+                    <a href="mailto:info@worksquareng.com" style="text-decoration: none; color: var(--text-muted);"><strong>E:</strong> info@worksquareng.com</a>
+                    <p style="color: var(--text-muted); margin: 0; line-height: 1.4;"><strong>L:</strong> 346, Borno Way, Via Alagomeji Bus Stop, Ebute Metta, Lagos.</p>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <h4>System Maps</h4>
+                <a href="index.html">Home Performance</a>
+                <a href="about.html">About The Science</a>
+                <a href="services.html">Capability Array</a>
+                <a href="testimonials.html">Driver Validation</a>
+            </div>
+            <div class="footer-signals">
+                <h4>Social Broadcasts</h4>
+                <p style="margin-bottom: 15px; font-size: 0.85rem; color: var(--text-muted);">Follow our daily diagnostic telemetry and live track-side updates:</p>
+                <div class="social-channels-row" style="display: flex; gap: 15px;">
+                    <a href="#" aria-label="Facebook" style="color: var(--brand-blue); font-size: 1.2rem;"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram" style="color: var(--brand-blue); font-size: 1.2rem;"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="X" style="color: var(--brand-blue); font-size: 1.2rem;"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="YouTube" style="color: var(--brand-blue); font-size: 1.2rem;"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-cr">
+            <p>&copy; 2026 WORKSQUARE SOLUTIONS. ALL RIGHTS RESERVED.</p>
+            <p class="designer-sig">SYSTEM INTEGRATION BY SBACE</p>
+        </div>
+    </footer>
+
+    <!-- Formspree Booking Modal -->
+    <div id="appointmentModal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Secure Diagnostic Bay Window</h2>
+            <p>Complete your telemetry metrics below to lock in your priority service bay slot.</p>
+            
+            <form id="appointmentForm" action="https://formspree.io/f/yourformid" method="POST">
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="input-group">
+                    <label>Phone</label>
+                    <input type="tel" name="phone" placeholder="0809-280-0005" required>
+                </div>
+                <div class="input-group">
+                    <label>Vehicle Make & Brand</label>
+                    <input type="text" name="vehicle_brand" placeholder="e.g. Toyota, Mercedes, Honda" required>
+                </div>
+                <div class="input-group">
+                    <label>Primary Service Needed</label>
+                    <select name="service" required>
+                        <option value="" disabled selected>Select service array...</option>
+                        <option>Precision Wheel Alignment & Tires</option>
+                        <option>Advanced Powertrain Diagnostics & Programming</option>
+                        <option>Braking System Calibration</option>
+                        <option>Air Condition Service & Maintenance</option>
+                        <option>Scheduled Factory Maintenance</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>Preferred Date</label>
+                    <input type="date" name="date" required>
+                </div>
+                <button type="submit" class="submit-booking">Confirm Allocation Window</button>
+            </form>
+            
+            <div id="successMessage" style="display:none;">
+                <h3>Bay Reserved Successfully!</h3>
+                <p>Your calendar reservation code has been generated. See you in the bay.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Referencing script.js as per old naming rules -->
+    <script src="script.js"></script>
+</body>
+</html>
